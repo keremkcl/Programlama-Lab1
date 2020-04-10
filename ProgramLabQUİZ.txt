@@ -1,0 +1,17 @@
+KeremKecel 180401033
+
+sympy:Sembolik python kütüphanesidir.Üs alma,türevalma,grafik çizme gibi bir çok iþlemi gerçekleþtirir
+symbol:Bir deðiþkene sembol atamamýzý saðlar.
+factor:Ýfadeyi çarpanlara ayýrýr
+expand:Üzerinde iþlem yaptýðýmýz ifadeyi geri toplar,açýlýmýdýr.
+pprint:Ýfadeyi matematikteki halinde yazar.(Üsleri üstel olarak yazmak gibi)
+
+subs(x.y):Parametlerin yerini deðiþtirir.x ile y'ye tanýmlanan deðerleri de deðiþtirir.
+sqrt(x):x tam kara deðilse tanýmlamasýný karekök þeklinde yazar
+syp.plot(fonksiyon.adi.subs({mu:deger,sigma:deger}),(x,baslangýc_degeri,bitis_degeri),title='grafik basligi'):Parametrelere göre frafik çizer
+exp:e'ye göre üstel fonksiyon atamasý
+
+import sympy as syp:cizim modülünün sýnýfý
+matplotlib:verileri grafikleþtirir.görselliþtirilmesini saðlar
+evalf:sayýsal bir ifadeyi kayan noktalý sayý olarak deðerlendirmek için kullanýlýr.
+show:Grafik deðerleriyle beraber çýktý olarak verilþr
