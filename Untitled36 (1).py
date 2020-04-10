@@ -98,6 +98,10 @@ def my_median(my_list):
 median=my_median(list_month_bubble)
 
 
+#print(median)
+#print(list_month_mean)
+
+
 
 
 
